@@ -1,0 +1,441 @@
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Light.woff') format('woff'), url('../fonts/MyriadPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Black';
+    src: url('../fonts/MyriadPro-Black.eot');
+    src: url('../fonts/MyriadPro-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Black.woff') format('woff'), url('../fonts/MyriadPro-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main {
+    width: 2400px;
+    height: 3350px;
+    margin: 40px auto;
+    position: relative;
+}
+
+/* =================================================== 
+=================БЛОК ЛЕВОЙ СТОРОНЫ =================
+=================================================== */
+
+.left {
+    width: 824px;
+    height: 3500px;
+    float: left;
+}
+
+.circle {
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    border: 1px solid #3D6CB0;
+    margin: 0px auto;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    clear: both;
+}
+
+.circle2 {
+    width: 405px;
+    height: 405px;
+    border-radius: 50%;
+    background: #3D6CB0;
+    margin: 30px;
+}
+
+.name1 {
+    text-align: center;
+    font-family: 'Myriad Pro Light', sans-serif;
+    font-size: 110px;
+    margin: 0 auto;
+}
+
+.name2 {
+    text-align: center;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    margin: 4px auto;
+}
+
+.prof {
+    text-align: center;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 824px;
+    height: 645px;
+    margin-top: 160px;
+}
+
+.prof_logo {
+    width: 824px;
+    height: 144px;
+}
+
+.prof_logo img {
+    float: left;
+}
+
+.prof_title {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 144px;
+    margin-left: 20px;
+    float: left;
+}
+
+hr {
+    width: 290px;
+    display: inline-block;
+    border: 5px solid #3D6CB0;
+    margin-top: 64px;
+    margin-left: 10px;
+}
+
+.prof_text {
+    margin-top: 20px;
+}
+
+.norm {
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 31px;
+}
+
+.bold {
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -0.2px;
+}
+
+.contact {
+    margin-top: 100px;
+    width: 824px;
+    height: 580px;
+}
+
+.cont_logo {
+    width: 824px;
+    height: 144px;
+}
+
+.cont_logo img {
+    float: left;
+}
+
+.cont_title {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 144px;
+    margin-left: 20px;
+    float: left;
+}
+
+.contact hr {
+    width: 260px;
+    display: inline-block;
+    border: 5px solid #3D6CB0;
+    margin-top: 64px;
+    margin-left: 10px;
+}
+
+.cont_name {
+    width: 174px;
+    height: 354px;
+    margin-top: 70px;
+    margin-right: 60px;
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    float: left;
+}
+
+.cont_name p {
+    margin-top: 0px;
+}
+
+.cont_text {
+    width: 650px;
+    height: 354px;
+    margin-top: 70px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 40px;
+    line-height: 65px;
+}
+
+.skills {
+    width: 828px;
+    height: 756px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.skils_logo {
+    width: 828px;
+    height: 144px;
+}
+
+.skills_logo img {
+    float: left;
+}
+
+.skils_title {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 144px;
+    margin-left: 20px;
+    float: left;
+}
+
+.skills hr {
+    width: 350px;
+    display: inline-block;
+    border: 5px solid #3D6CB0;
+    margin-top: 64px;
+    margin-left: 10px;
+}
+
+.clean {
+    clear: both;
+}
+
+.skills_name {
+    width: 650px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 55px;
+    line-height: 96px;
+}
+
+.rate {
+    position: absolute;
+    top: 300px;
+}
+
+/* =================================================== 
+=================БЛОК ПРАВОЙ СТОРОНЫ =================
+=================================================== */
+
+.right {
+    width: 1265px;
+    position: absolute;
+    left: 920px;
+    top: 0px;
+}
+
+.education {
+    width: 1265px;
+    height: 148px;
+    margin-bottom: 40px;
+}
+
+.education img {
+    float: left;
+}
+
+.educ_logo {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 4px;
+    margin-left: 40px;
+    margin-top: 0px;
+    line-height: 148px;
+    float: left;
+}
+
+.education hr {
+    width: 560px;
+}
+
+li {
+    list-style: none;
+    display: list-item;
+    margin-left: 60px;
+    padding-top: 40px;
+}
+
+li:before {
+    content: "";
+    border: 20px #000 solid !important;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: -80px;
+    position: absolute;
+}
+
+.educ_title {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.educ_name {
+    color: #020202;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 50px;
+}
+
+.educ_text {
+    color: #000000;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 30px;
+}
+
+.experience {
+    width: 1265px;
+    height: 154px;
+    margin-top: 120px;
+}
+
+.experience img {
+    float: left;
+}
+
+.exp_logo {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 4px;
+    margin-left: 40px;
+    margin-top: 0px;
+    line-height: 144px;
+    float: left;
+}
+
+.experience hr {
+    width: 550px;
+}
+
+li {
+    list-style: none;
+    display: list-item;
+    margin-left: 60px;
+    padding-top: 40px;
+}
+
+li:before {
+    content: "";
+    border: 20px #000 solid !important;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: -80px;
+    position: absolute;
+}
+
+.exp_title {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.exp_name {
+    color: #020202;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 50px;
+}
+
+.exp_text {
+    color: #000000;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 30px;
+}
+
+.software {
+    width: 1265px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.soft_logo {
+    height: 148px;
+}
+
+.soft_logo img {
+    float: left;
+}
+
+.soft_title {
+    color: #3D6CB0;
+    font-family: 'Myriad Pro Black', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 140px;
+    margin-left: 20px;
+    float: left;
+}
+
+.software hr {
+    width: 500px;
+    display: inline-block;
+    border: 5px solid #3D6CB0;
+    margin-top: 64px;
+    margin-left: 10px;
+}
+
+.clean {
+    clear: both;
+}
+
+.soft1, .soft2 {
+    width: 600px;
+    color: #000000;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 55px;
+    line-height: 110px;
+    float: left;
+}
+
+.soft2 p {
+    margin-left: 88px;
+}
+
+.soft_rate {
+    position: absolute;
+    top: 300px;
+}
+
+.freepik {
+
+    position: absolute;
+    bottom: 0px;
+    margin: 0px auto;
+}
