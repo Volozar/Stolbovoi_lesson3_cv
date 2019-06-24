@@ -28,7 +28,7 @@
 
 .main {
     width: 1200px;
-    min-height: 3200px;
+    min-height: 1700px;
     margin: 0px auto;
     position: relative;
 }
@@ -307,7 +307,7 @@
 }
 
 ul {
-    margin-left: 10px;
+    margin-left: 18px;
 }
 
 li {
@@ -468,8 +468,8 @@ li:before {
     width: 250px;
     border: 10px solid #3D6CB0;
     margin-top: 50px;
-
 }
+
 .soft-rate-left {
     width: 250px;
     float: left;
@@ -480,17 +480,20 @@ li:before {
     position: absolute;
     top: 0px;
 }
-.hr-gray hr{
+
+.hr-gray hr {
     width: 250px;
-    border: 10px solid rgb(200, 200, 200);   
+    border: 10px solid rgb(200, 200, 200);
 }
+
 .hr-blue {
     position: absolute;
     top: 0px;
 }
-.hr-blue hr{
+
+.hr-blue hr {
     width: 250px;
-    border: 10px solid #3D6CB0; 
+    border: 10px solid #3D6CB0;
 }
 
 .soft-rate-right {
@@ -498,7 +501,6 @@ li:before {
     width: 250px;
     position: relative;
 }
-
 
 .freepik {
     position: absolute;
@@ -530,13 +532,15 @@ li:before {
         min-width: 720px;
     }
     .right {
-        width: 720px;
+        width: 100%;
         margin: 0px auto;
         margin-bottom: 40px;
         position: static;
     }
     .education {
+        max-width: 1000px;
         width: 100%;
+        min-width: 720px;
         font-size: 0.5em;
     }
     .education hr {
@@ -567,18 +571,19 @@ li:before {
         margin-left: 10px;
     }
     .soft1, .soft2 {
-        width: 500px;
+        width: 300px;
     }
-    .soft-img {
+    
+    /* ul {
+        max-width: 1000px;
         width: 100%;
-        height: 386px;
-        position: absolute;
-        top: 300px;
-    }
-    ul {
-        width: 1000px;
-    }
-    .freepik {
+        min-width: 720px;
+    } */
+    footer {
+        width: 300px;
+        height: 30px;
+        background-image: url(../img/FREEPIK-LOGO@1X.png); 
+        background-size: cover;
         position: static;
         bottom: 0px;
         margin: 0px auto;
