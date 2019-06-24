@@ -28,7 +28,7 @@
 
 .main {
     width: 1200px;
-    min-height: 1700px;
+    min-height: 1650px;
     margin: 0px auto;
     position: relative;
 }
@@ -502,11 +502,15 @@ li:before {
     position: relative;
 }
 
-.freepik {
+footer {
+    width: 300px;
+    height: 30px;
+    background-image: url(../img/FREEPIK-LOGO@1X.png);
+    background-size: cover;
     position: absolute;
     bottom: 0px;
     margin: 0px auto;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -573,7 +577,6 @@ li:before {
     .soft1, .soft2 {
         width: 300px;
     }
-    
     /* ul {
         max-width: 1000px;
         width: 100%;
@@ -582,7 +585,7 @@ li:before {
     footer {
         width: 300px;
         height: 30px;
-        background-image: url(../img/FREEPIK-LOGO@1X.png); 
+        background-image: url(../img/FREEPIK-LOGO@1X.png);
         background-size: cover;
         position: static;
         bottom: 0px;
