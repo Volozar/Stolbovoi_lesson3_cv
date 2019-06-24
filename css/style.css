@@ -464,10 +464,9 @@ li:before {
     top: 66px;
 }
 
-.soft-rate hr {
-    width: 250px;
-    border: 10px solid #3D6CB0;
-    margin-top: 50px;
+.soft-rate {
+    width: 600px;
+    position: absolute;
 }
 
 .soft-rate-left {
@@ -476,14 +475,10 @@ li:before {
     margin-right: 95px;
 }
 
-.hr-gray {
-    position: absolute;
-    top: 0px;
-}
-
 .hr-gray hr {
     width: 250px;
-    border: 10px solid rgb(200, 200, 200);
+    margin-top: 50px;
+    border: 10px solid rgb(199, 199, 199);
 }
 
 .hr-blue {
@@ -492,14 +487,56 @@ li:before {
 }
 
 .hr-blue hr {
-    width: 250px;
+    width: 230px;
+    margin-top: 50px;
+    border: 10px solid #3D6CB0;
+}
+
+.hr-left-1 hr {
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 10px solid #3D6CB0;
+}
+
+.hr-left-2 hr {
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 10px solid #3D6CB0;
+}
+
+.hr-left-3 hr {
+    width: 140px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 10px solid #3D6CB0;
+}
+
+.hr-right-1 hr {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 10px solid #3D6CB0;
+}
+
+.hr-right-2 hr {
+    width: 140px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 10px solid #3D6CB0;
+}
+
+.hr-right-3 hr {
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 0px;
     border: 10px solid #3D6CB0;
 }
 
 .soft-rate-right {
     float: left;
     width: 250px;
-    position: relative;
 }
 
 footer {
@@ -547,41 +584,65 @@ footer {
         min-width: 720px;
         font-size: 0.5em;
     }
-    .education hr {
-        width: 300px;
-        display: inline-block;
-        border: 5px solid #3D6CB0;
-        margin-top: 64px;
-        margin-left: 10px;
-    }
+    
     .experience {
         width: 100%;
     }
-    .experience hr {
-        width: 280px;
-        display: inline-block;
-        border: 5px solid #3D6CB0;
-        margin-top: 64px;
-        margin-left: 10px;
-    }
+    
     .software {
         width: 100%;
     }
-    .software hr {
-        width: 300px;
-        display: inline-block;
-        border: 5px solid #3D6CB0;
-        margin-top: 64px;
-        margin-left: 10px;
+    
+    .hr-gray hr {
+        width: 250px;
+        margin-top: 50px;
+        border: 10px solid rgb(199, 199, 199);
     }
-    .soft1, .soft2 {
-        width: 300px;
+    .hr-blue {
+        position: absolute;
+        top: 0px;
     }
-    /* ul {
-        max-width: 1000px;
-        width: 100%;
-        min-width: 720px;
-    } */
+    .hr-blue hr {
+        width: 230px;
+        margin-top: 50px;
+        border: 10px solid #3D6CB0;
+    }
+    .hr-left-1 hr {
+        width: 230px;
+        margin-top: 50px;
+        margin-left: 0px;
+        border: 10px solid #3D6CB0;
+    }
+    .hr-left-2 hr {
+        width: 180px;
+        margin-top: 50px;
+        margin-left: 0px;
+        border: 10px solid #3D6CB0;
+    }
+    .hr-left-3 hr {
+        width: 140px;
+        margin-top: 50px;
+        margin-left: 0px;
+        border: 10px solid #3D6CB0;
+    }
+    .hr-right-1 hr {
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 0px;
+        border: 10px solid #3D6CB0;
+    }
+    .hr-right-2 hr {
+        width: 140px;
+        margin-top: 50px;
+        margin-left: 0px;
+        border: 10px solid #3D6CB0;
+    }
+    .hr-right-3 hr {
+        width: 230px;
+        margin-top: 50px;
+        margin-left: 0px;
+        border: 10px solid #3D6CB0;
+    }
     footer {
         width: 300px;
         height: 30px;
