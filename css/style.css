@@ -27,10 +27,12 @@
 =================================================== */
 
 .main {
-    width: 1200px;
-    min-height: 1650px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0px auto;
     position: relative;
+    /* padding: 10px; */
+    padding-bottom: 90px;
 }
 
 /* =================================================== 
@@ -553,7 +555,6 @@ footer {
 @media screen and (max-width: 1000px) {
     .main {
         width: 100%;
-        min-height: 3200px;
         margin: 0px auto;
         position: static;
     }
@@ -562,6 +563,24 @@ footer {
         float: none;
         margin: 0px auto;
         margin-bottom: 100px;
+    }
+    .profile hr {
+        width: 61%;
+    }
+    .contact hr {
+        width: 60%;
+    }
+    .skills hr {
+        width: 65%;
+    }
+    .education hr {
+        width: 52%;
+    }
+    .experience hr {
+        width: 48%;
+    }
+    .software hr {
+        width: 54%;
     }
     .name1, .name2, .prof {
         font-size: 3em;
@@ -584,15 +603,12 @@ footer {
         min-width: 720px;
         font-size: 0.5em;
     }
-    
     .experience {
         width: 100%;
     }
-    
     .software {
         width: 100%;
     }
-    
     .hr-gray hr {
         width: 250px;
         margin-top: 50px;
