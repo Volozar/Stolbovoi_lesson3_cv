@@ -119,17 +119,15 @@
 }
 
 .prof-hr {
-    min-width: 40%;
-    max-width: 100%;
-    height: 70px;
+    min-width: 10%;
+    height: 20px;
     display: inline-block;
-    margin-left: 10px;
 }
 
-.prof-hr hr {
-    width: 100%;
+.profile hr {
+    min-width: 40%;
+    max-width: 100%;
     border: 3px solid #3D6CB0;
-    margin-top: 30px;
 }
 
 .prof-text {
@@ -181,17 +179,15 @@
 }
 
 .cont-hr {
-    min-width: 40%;
-    max-width: 100%;
-    height: 70px;
+    min-width: 10%;
+    height: 22px;
     display: inline-block;
-    margin-left: 10px;
 }
 
-.cont-hr hr {
-    width: 100%;
+.contact hr {
+    min-width: 30%;
+    max-width: 100%;
     border: 3px solid #3D6CB0;
-    margin-top: 30px;
 }
 
 .cont-name {
@@ -243,21 +239,23 @@
 }
 
 .skills-hr {
-    min-width: 45%;
-    max-width: 100%;
-    height: 70px;
+    min-width: 20%;
+    height: 20px;
     display: inline-block;
-    margin-left: 10px;
 }
 
-.skills-hr hr {
-    width: 100%;
+.skills hr {
+    max-width: 100%;
     border: 3px solid #3D6CB0;
-    margin-top: 30px;
 }
 
 .clean {
     clear: both;
+}
+
+.skills-n-r {
+    width: 500px; 
+    margin: 0px auto;
 }
 
 .skills-name {
@@ -297,7 +295,7 @@
 .education {
     width: 100%;
     height: 70px;
-    background: rgb(114, 226, 114);
+    position: relative;
 }
 
 .educ-img {
@@ -322,18 +320,16 @@
 }
 
 .educ-hr {
-    min-width: 30%;
-    max-width: 100%;
-    height: 70px;
+    min-width: 10%;
+    height: 25px;
     display: inline-block;
-    margin-left: 10px;
-    background: rgb(255, 252, 103);
 }
 
-.educ-hr hr {
-    /* width: 100%; */
+.education hr {
+    min-width: 20%;
+    max-width: 100%;
     border: 3px solid #3D6CB0;
-    margin-top: 30px;
+    margin-left: 10px;
 }
 
 ul {
@@ -404,18 +400,14 @@ li:before {
 }
 
 .exp-hr {
-    min-width: 30%;
-    max-width: 100%;
-    height: 70px;
+    min-width: 10%;
+    height: 25px;
     display: inline-block;
-    margin-left: 10px;
-    background: rgb(255, 252, 103);
 }
 
-.exp-hr hr {
-    /* width: 100%; */
+.experience hr {
+    max-width: 100%;
     border: 3px solid #3D6CB0;
-    margin-top: 30px;
 }
 
 .exp-title {
@@ -470,18 +462,14 @@ li:before {
 }
 
 .soft-hr {
-    min-width: 45%;
-    max-width: 100%;
-    height: 70px;
+    min-width: 10%;
+    height: 20px;
     display: inline-block;
-    margin-left: 10px;
-    background: rgb(255, 252, 103);
 }
 
-.soft-hr hr {
-    /* width: 100%; */
+.software hr {
+    max-width: 100%;
     border: 3px solid #3D6CB0;
-    margin-top: 30px;
 }
 
 .clean {
@@ -489,7 +477,7 @@ li:before {
 }
 
 .soft1, .soft2 {
-    width: 300px;
+    width: 41%;
     color: #000000;
     font-family: 'Myriad Pro Regular', sans-serif;
     font-size: 25px;
@@ -498,7 +486,7 @@ li:before {
 }
 
 .soft1 {
-    margin-right:  44px;
+    margin-right: 44px;
 }
 
 .soft-rate {
@@ -508,19 +496,23 @@ li:before {
     top: 66px;
 }
 
-.soft-rate {
-    width: 600px;
-    position: absolute;
+.soft-rate-left {
+    width: 40%;
+    float: left;
+    /* background: blueviolet; */
+    /* margin-right: 95px; */
 }
 
-.soft-rate-left {
-    width: 250px;
+.soft-rate-right {
+    width: 40%;
+    margin-left: 50px;
     float: left;
-    margin-right: 95px;
+    /* background: darkcyan; */
 }
 
 .hr-gray hr {
-    width: 250px;
+    /* min-width: 70%; */
+    /* width: 100%; */
     margin-top: 50px;
     border: 10px solid rgb(199, 199, 199);
 }
@@ -528,59 +520,60 @@ li:before {
 .hr-blue {
     position: absolute;
     top: 0px;
+    /* background: rgb(156, 252, 169); */
+    width: 40%;
+}
+
+.hr-gray {
+    width: 100%;
 }
 
 .hr-blue hr {
-    width: 230px;
+    /* min-width: 70%; */
     margin-top: 50px;
     border: 10px solid #3D6CB0;
 }
 
 .hr-left-1 hr {
-    width: 230px;
+    width: 84%;
     margin-top: 50px;
     margin-left: 0px;
     border: 10px solid #3D6CB0;
 }
 
 .hr-left-2 hr {
-    width: 180px;
+    width: 65%;
     margin-top: 50px;
     margin-left: 0px;
     border: 10px solid #3D6CB0;
 }
 
 .hr-left-3 hr {
-    width: 140px;
+    width: 50%;
     margin-top: 50px;
     margin-left: 0px;
     border: 10px solid #3D6CB0;
 }
 
 .hr-right-1 hr {
-    width: 200px;
+    width: 75%;
     margin-top: 50px;
     margin-left: 0px;
     border: 10px solid #3D6CB0;
 }
 
 .hr-right-2 hr {
-    width: 140px;
+    width: 55%;
     margin-top: 50px;
     margin-left: 0px;
     border: 10px solid #3D6CB0;
 }
 
 .hr-right-3 hr {
-    width: 230px;
+    width: 84%;
     margin-top: 50px;
     margin-left: 0px;
     border: 10px solid #3D6CB0;
-}
-
-.soft-rate-right {
-    float: left;
-    width: 250px;
 }
 
 footer {
@@ -588,15 +581,17 @@ footer {
     height: 30px;
     background-image: url(../img/FREEPIK-LOGO@1X.png);
     background-size: cover;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0px;
-    margin: 0px auto;
-    margin-left: 30%;
+    /* margin: 0px auto; */
+    right: 70%;
+    margin-top: 30px;
 }
 
-/*====================================================================
-====================================================================
-===================================================================*/
+/*===================================================
+=====================================================
+=====================================================
+===================================================*/
 
 @media screen and (max-width: 1000px) {
     .main {
@@ -610,28 +605,6 @@ footer {
         margin: 0px auto;
         margin-bottom: 100px;
     }
-    /* .prof-hr {
-        min-width: 40%;
-        max-width: 100%;
-    }
-    .prof-hr hr {
-        width: 100%;
-    } */
-    /* .contact hr {
-        width: 60%;
-    }
-    .skills hr {
-        width: 65%;
-    }
-    .education hr {
-        width: 52%;
-    }
-    .experience hr {
-        width: 48%;
-    }
-    .software hr {
-        width: 54%;
-    } */
     .name1, .name2, .prof {
         font-size: 3em;
     }
@@ -659,64 +632,7 @@ footer {
     .software {
         width: 100%;
     }
-    .hr-gray hr {
-        width: 250px;
-        margin-top: 50px;
-        border: 10px solid rgb(199, 199, 199);
-    }
-    .hr-blue {
-        position: absolute;
-        top: 0px;
-    }
-    .hr-blue hr {
-        width: 230px;
-        margin-top: 50px;
-        border: 10px solid #3D6CB0;
-    }
-    .hr-left-1 hr {
-        width: 230px;
-        margin-top: 50px;
-        margin-left: 0px;
-        border: 10px solid #3D6CB0;
-    }
-    .hr-left-2 hr {
-        width: 180px;
-        margin-top: 50px;
-        margin-left: 0px;
-        border: 10px solid #3D6CB0;
-    }
-    .hr-left-3 hr {
-        width: 140px;
-        margin-top: 50px;
-        margin-left: 0px;
-        border: 10px solid #3D6CB0;
-    }
-    .hr-right-1 hr {
-        width: 200px;
-        margin-top: 50px;
-        margin-left: 0px;
-        border: 10px solid #3D6CB0;
-    }
-    .hr-right-2 hr {
-        width: 140px;
-        margin-top: 50px;
-        margin-left: 0px;
-        border: 10px solid #3D6CB0;
-    }
-    .hr-right-3 hr {
-        width: 230px;
-        margin-top: 50px;
-        margin-left: 0px;
-        border: 10px solid #3D6CB0;
-    }
     footer {
-        width: 300px;
-        height: 30px;
-        background-image: url(../img/FREEPIK-LOGO@1X.png);
-        background-size: cover;
-        position: static;
-        bottom: 0px;
-        margin: 0px auto;
         margin-left: 25%;
     }
 }
