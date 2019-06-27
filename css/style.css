@@ -621,9 +621,7 @@ footer {
         position: static;
     }
     .education {
-        max-width: 1000px;
         width: 100%;
-        min-width: 720px;
         font-size: 0.5em;
     }
     .experience {
